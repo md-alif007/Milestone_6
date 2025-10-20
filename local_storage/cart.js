@@ -39,8 +39,6 @@ const getProductFromLocalStorage = () => {
 const displayProductFromLocalStorage = () => {
     const products = getProductFromLocalStorage();
     for(const product in products){
-        console.log(product);
-        console.log(products[product]);
         displayProduct(product,products[product]);
     }
 }
