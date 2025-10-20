@@ -36,6 +36,15 @@ const getProductFromLocalStorage = () => {
     return cart;
 }
 
+const displayProductFromLocalStorage = () => {
+    const products = getProductFromLocalStorage();
+    for(const product in products){
+        console.log(product);
+        console.log(products[product]);
+        displayProduct(product,products[product]);
+    }
+}
+
 const saveProductToLocalStorage = (name, quantity) => {
     const cart = getProductFromLocalStorage();
     
@@ -44,3 +53,5 @@ const saveProductToLocalStorage = (name, quantity) => {
 
     localStorage.setItem("cart",cartSrting);
 }
+
+displayProductFromLocalStorage();
