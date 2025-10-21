@@ -64,6 +64,28 @@ const person = {
 // person.name = "md. alif"
 // console.log(person);
 
+// -----------------------------------
 
+// arrow function
 
+// const sum = (a, b) => {
+//     a + b;
+// }
+
+// const sum = (a,b) => a + b;
+
+// rest operator : converts parameter into array
+// const sum = (...rest) => {
+//     console.log(rest);
+// }
+// sum(1,2,3);
+
+// ---------------------------------------
+
+// spread operator
+// const numbers = [1, 2, 3, 4, 5];
+// console.log(...numbers);
+
+// const newNumbers = [...numbers, 10, 11];
+// console.log(newNumbers);
 
