@@ -11,13 +11,13 @@ const products =
         { category: "phone4", brand: "tecno", color: "white", price: 1000 }
     ]
 
-const result = products.map(product => product.price);
-console.log(result);
+// const result = products.map(product => product.price);
+// console.log(result);
 
-products.forEach(product => console.log(product.price));
+// products.forEach(product => console.log(product.price));
 
-const appleProduct = products.filter(product => product.brand === "apple");
-console.log(appleProduct);
+// const appleProduct = products.filter(product => product.brand === "apple");
+// console.log(appleProduct);
 
-const particularLProduct = products.find(product => product.category === "phone3");
-console.log(particularLProduct);
+// const particularLProduct = products.find(product => product.category === "phone3");
+// console.log(particularLProduct);
